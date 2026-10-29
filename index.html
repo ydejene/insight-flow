@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InsightFlow Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="dashboard">
+    <h1>InsightFlow: Employee Performance</h1>
+    <h3>Break out Room 3</h3>
+
+    <section class="controls">
+      <input type="text" id="search" placeholder="Search by name...">
+      <select id="role-filter"></select>
+      <button id="add-btn">Add Employee</button>
+    </section>
+
+    <section id="table-container"></section>
+    <section id="summary"></section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/table.js"></script>
+  <script src="js/actions.js"></script>
+  <script src="js/summary.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
